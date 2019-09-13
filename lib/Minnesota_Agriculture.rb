@@ -1,7 +1,10 @@
 require "open-uri"
 require "pry"
 require "nokogiri"
-require "Minnesota_Agriculture/version"
+
+require_relative "Minnesota_Agriculture/version"
+require_relative "Minnesota_Agriculture/cli"
+require_relative "Minnesota_Agriculture/scraper"
 
 
 module MinnesotaAgriculture
