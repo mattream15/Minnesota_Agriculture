@@ -8,11 +8,12 @@ class Scraper
                     #double check on iterating within an iteration?
                 planted_all_purpose_acres = production_data.css(".dataitem").text.strip
                     #double check on how to target a specific .dataitem with its respective data?
-        #harvested_acres = 
-        #iyeld =
-        #production =
-        #price_per_unit =
-        #value_of_production_in_dollars = 
+                #harvested_acres = 
+                #iyeld =
+                #production =
+                #price_per_unit =
+                #value_of_production_in_dollars = 
+            Agriculture_Data.new(commodity, planted_all_purpose_acres) #harvested_acres, iyeld, production, price_per_unit, value_of_production_in_dollars)
             end
         end
     end
