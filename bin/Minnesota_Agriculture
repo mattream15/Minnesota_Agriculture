@@ -1,6 +1,0 @@
-#!/usr/bin/env ruby
-
-require_relative "../lib/Minnesota_Agriculture.rb"
-
-
-CLI.new.run
