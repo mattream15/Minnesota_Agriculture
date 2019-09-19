@@ -1,8 +1,6 @@
 # MinnesotaAgriculture
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/Minnesota_Agriculture`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Welcome to the Minnesota_Agriculture gem! This gem serves to provide the user with a deeper understanding of the crops produced in Minnesota during 2018. Minnesota_Agriculture examines its crops produced through the following quantitative measurements: Planted All Purpose Acres, Harvested Acres, Harvested Yield, Production, Price per Unit, and Value of Production in Dollars.
 
 ## Installation
 
@@ -32,7 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/Minnesota_Agriculture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/[mattream15]/Minnesota_Agriculture. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 

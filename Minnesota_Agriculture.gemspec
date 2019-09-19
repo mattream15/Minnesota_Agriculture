@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matthew Ream"]
   spec.email         = ["matthewtimothyream@gmail.com"]
 
-  spec.summary       = "A gem"
-  spec.description   = "A description"
+  spec.summary       = "Minnesota_Agriculture is a gem that navigates a user through a table of data containing a comprehensive list of crops that were produced in Minnesota during 2018, additionally providing several quantitative measurements for each crop's production."
+  spec.description   = "Provides the user with a data driven approach to understanding Minnesota Agriculture production during 2018"
   spec.homepage      = "https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=MINNESOTA"
   spec.license       = "MIT"
 

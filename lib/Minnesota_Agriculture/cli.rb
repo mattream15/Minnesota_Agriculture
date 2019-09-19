@@ -7,7 +7,6 @@ class CLI
         puts "Loading..."
         Scraper.get_initial_data
         menu
-        exit
     end
 
     def menu
@@ -58,19 +57,21 @@ class CLI
             puts "Value of Production in Dollars = #{agriculture_data.value_of_production_in_dollars}"
         end
         puts ""
-        menu
-        exit
+        exit_gem
     end
 
-    def exit
-        puts "Would you like to 'select another crop' or would you like to 'exit the program'?"
+    def exit_gem
+        puts "Would you like to 'select another crop' or would you like to 'exit the gem'?"
         answer = gets.chomp
         if answer == "select another crop"
+            puts ""
             menu
-        elsif answer == "exit the program"
-        menu.exit!
+        elsif answer == "exit the gem"
+        return nil
         else
             puts "That is an invalid answer"
+            puts ""
+            exit_gem
         end
     end
 end
