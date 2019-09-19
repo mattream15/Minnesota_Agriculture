@@ -22,7 +22,7 @@ class CLI
             puts "That is an invalid number"
             puts ""
             menu
-        end
+        else
         agriculture_data = Agriculture_Data.all[input.to_i - 1]
         puts ""
         puts "Here is the summary for #{agriculture_data.crop}:"
@@ -58,6 +58,7 @@ class CLI
         end
         puts ""
         exit_gem
+        end
     end
 
     def exit_gem
